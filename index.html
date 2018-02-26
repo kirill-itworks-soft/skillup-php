@@ -9,7 +9,7 @@
     <p>first <strong>paragraph</strong></p>
     <h2>Header 2</h2>
     <p>
-        2nd <br>
+        <span>Second</span> <br>
         <em>paragraph</em>
         <img src="images/img_fjords.jpg" alt="Красивая картинка">
 
@@ -33,26 +33,33 @@
     <table border="1">
         <thead>
             <tr>
-                <th>Ячейка 1.1</th>
-                <th>Ячейка 1.2</th>
-                <th>Ячейка 1.3</th>
+                <th rowspan="2">Наименование</th>
+                <th colspan="2">Стоимость</th>
             </tr>
             <tr>
-                <td>Ячейка 2.1</td>
-                <td>Ячейка 2.2</td>
-                <td>Ячейка 3.3</td>
+                <td>Мин</td>
+                <td>Макс</td>
             </tr>
         </thead>
-        <tr>
-            <td>Ячейка 3.1</td>
-            <td>Ячейка 3.2</td>
-            <td>Ячейка 3.3</td>
-        </tr>
-        <tr>
-            <td>Ячейка 4.1</td>
-            <td>Ячейка 4.2</td>
-            <td>Ячейка 4.3</td>
-        </tr>
+        <tbody>
+            <tr>
+                <td>Ячейка 3.1</td>
+                <td>Ячейка 3.2</td>
+                <td>Ячейка 3.3</td>
+            </tr>
+            <tr>
+                <td>Ячейка 4.1</td>
+                <td>Ячейка 4.2</td>
+                <td>Ячейка 4.3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Подвал 1</td>
+                <td>Подвал 2</td>
+                <td>Подвал 3</td>
+            </tr>
+        </tfoot>
     </table>
 
     <ol>
@@ -76,7 +83,7 @@
         <li>Позиция 1</li>
         <li>Позиция 2</li>
         <li>Позиция 3</li>
-        <li>Позиция 4</li>
+        <li>Позиция 4</li><th></th>
         <li>Позиция 5</li>
 
     </ol>
@@ -88,5 +95,10 @@
         <li>Позиция 4</li>
         <li>Позиция 5</li>
     </ul>
+
+    <div>
+
+    </div>
+
 </body>
 </html>
